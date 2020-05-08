@@ -1,9 +1,20 @@
 def intersection(arrays):
 
-    """
-    YOUR CODE HERE
-    """
+    numDict = {}
 
+    for numArr in arrays:
+      for element in numArr:
+        if element in numDict:
+          numDict[element] += 1
+        else:
+          numDict[element] = 1
+
+    result = []
+
+    for key in numDict:
+      if numDict[key] == len(arrays):
+        result.append(key)
+          
     return result
 
 
