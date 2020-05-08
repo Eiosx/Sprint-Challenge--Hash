@@ -6,7 +6,10 @@ def get_indices_of_item_weights(weights, length, limit):
 
     items = {}
 
-    # def getValues(arr, ):
+    def getValues(arr, value):
+
+      for 
+
 
 
 
